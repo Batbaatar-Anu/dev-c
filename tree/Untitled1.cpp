@@ -22,7 +22,8 @@
 	root->right_child=right;
 		
  	printf("%d\n",root->data);
- 	printf("%d\n",left->data);
  	printf("%d\n",root->left_child->data);
+	printf("%d\n",root->right_child->data);
+ 	
  	return 0;
  }

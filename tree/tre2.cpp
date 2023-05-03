@@ -15,6 +15,17 @@
  	return newNode;
  }
  int main(){
+ 	 /*	struct node *root = createNode(1);
+ 	root->left_child = createNode(2);
+ 	root->right_child = createNode(3);
+	root->left_child->left_child = createNode(4);
+	
+ 	root->left_child=left;
+	root->right_child=right;
+	printf("%d\n", root->data);
+	printf("%d\n", root->left_child->data);
+	printf("%d\n", root->right_child->data);
+	printf("%d\n", root->left_child->left_child->data);*/
  	struct node *root=createNode(0);
  	struct node *left= createNode(1);
  	struct node *right=createNode(2);
